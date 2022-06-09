@@ -132,7 +132,7 @@ body{
  footer{
      padding-bottom: 5%;
      padding-top: 20px;
-     background-color: black;
+     background-color: linear-gradient (to top, white,black);
      opacity: 0.7;
      justify-content: center;
      
@@ -258,9 +258,12 @@ body{
          font-family: Georgia, 'Times New Roman', Times, serif;
          font-size: 60px;
          justify-self: center;
-         padding-top: 550px;
+         padding-top: 525px;
          padding-left: 20%;
          padding-right: 20%;
+         padding-bottom: 0px;
+         text-align: center;
+        
      }
 
      nav ul li a {
@@ -297,6 +300,7 @@ body{
         padding-left: 30%;
         padding-right: 30%;
         padding-bottom: 20px;
+        text-align: center;
     
      }
     
@@ -307,6 +311,15 @@ body{
          padding: 20px;
          justify-content: space-evenly;
     
+     }
+
+     .foto {
+         transition: all 2s;
+     }
+
+     .foto:hover{
+         width: 105%;
+         height: 105%;
      }
     
     
@@ -357,10 +370,11 @@ body{
     
      footer{
          padding-bottom: 5%;
-         padding-top: 20px;
-         background-color: black;
-         opacity: 0.7;
+         padding-top: 0px;
+         background: linear-gradient(to top, black 0 50%, transparent);
+         opacity: 0.9;
          justify-content: center;
+        
          
      }
     
@@ -369,11 +383,10 @@ body{
         display: flex;
         flex-direction: row;
         column-gap: 30px;
+        transform: translate(0px, 40px);
       
     
      }
-
-     nav
 
 
 }
